@@ -27,8 +27,10 @@ export class PostsUI extends LitElement {
           text-overflow: ellipsis;
           white-space: nowrap;
           margin: 0;
-          font-size: 18px;
+          font-size: 1.3rem;
           font-weight: normal;
+          color: #d4449d;
+          font-weight: 600;
       }
 
       .title::first-letter {
@@ -36,6 +38,24 @@ export class PostsUI extends LitElement {
       }
       
       .title::after {
+        content: "...";
+      }
+      
+      .content {
+        width: 300px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          margin: 0;
+          font-size: 18px;
+          font-weight: normal;
+      }
+
+      .content::first-letter {
+          text-transform: capitalize;
+      }
+      
+      .content::after {
         content: "...";
       }
 
@@ -105,6 +125,7 @@ export class PostsUI extends LitElement {
               <a href="#" @click="${() => this.handleShowPost(post)}" class="link-post">
                 <li class="post" id="post_${post.id}">
                   <h2 class="title">&#9744; ${post.title}</h2>
+                  <p class="content">${post.body}</p>
                 </li>
               </a>
             `

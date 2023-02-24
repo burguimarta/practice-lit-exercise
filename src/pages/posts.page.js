@@ -29,11 +29,12 @@ export class PostsPage extends LitElement {
         display: block;
         color: white;
         text-decoration: none;
-        margin-bottom: 10px;
-        background-color: green;
+        margin: 0 0 10px 200px;
+        background-color: #f39ad5;
         border-radius: 10px;
         padding: 10px 10px;
         box-sizing: border-box;
+        width: 5rem;
       }
     `;
   }

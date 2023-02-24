@@ -14,6 +14,7 @@ class PostDetail extends LitElement {
       border-radius: 4px;
       background-color: #fff;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      color: #3f3f3f;
     }
 
     label {
@@ -32,7 +33,7 @@ class PostDetail extends LitElement {
     }
 
     button {
-      background-color: #007bff;
+      background-color: #d782ff;
       color: #fff;
       border: none;
       border-radius: 4px;
@@ -96,6 +97,7 @@ class PostDetail extends LitElement {
           type="text"
           id="title"
           name="title"
+          placeholder="Add a title"
         />
       </div>
       <div>
@@ -104,6 +106,7 @@ class PostDetail extends LitElement {
           type="text"
           id="body"
           name="body"
+          placeholder="Add some text"
         />
       </div>
       <div>
