@@ -22,7 +22,7 @@ export class PostsUI extends LitElement {
       }
 
       .title {
-          width: 300px;
+          width: 30rem;
           overflow: hidden;
           text-overflow: ellipsis;
           white-space: nowrap;
@@ -42,7 +42,7 @@ export class PostsUI extends LitElement {
       }
       
       .content {
-        width: 300px;
+        width: 30rem;
           overflow: hidden;
           text-overflow: ellipsis;
           white-space: nowrap;

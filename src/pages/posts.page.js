@@ -29,7 +29,7 @@ export class PostsPage extends LitElement {
         display: block;
         color: white;
         text-decoration: none;
-        margin: 0 0 10px 200px;
+        margin: 0 0 0.62rem 25rem;
         background-color: #f39ad5;
         border-radius: 10px;
         padding: 10px 10px;
