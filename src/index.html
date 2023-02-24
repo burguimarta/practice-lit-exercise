@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Proyecto de LitElement</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/posts">Posts</a>
+        <a href="https://www.google.es">Google</a>
+      </nav>
+    </header>
+    <main id="outlet"></main>
+
+    <!-- <article>
+      <header>
+        <h1>Título del post</h1>
+        <p class="meta">Por <a href="#">Autor del post</a> el <time datetime="2023-02-23">23 de febrero de 2023</time></p>
+      </header>
+      <p>Contenido del post</p>
+      <footer>
+        <p>Publicado en <a href="#">Categoría del post</a></p>
+        <p>Etiquetas: <a href="#">Etiqueta 1</a>, <a href="#">Etiqueta 2</a>, <a href="#">Etiqueta 3</a></p>
+      </footer>
+    </article>
+    <aside>
+      <h2>Lista de posts</h2>
+      <ul>
+        <li><a href="#">Título del post 1</a></li>
+        <li><a href="#">Título del post 2</a></li>
+        <li><a href="#">Título del post 3</a></li>
+      </ul>
+      <a href="#" class="boton-agregar">Agregar post</a>
+    </aside> -->
+
+    <script>
+      document.addEventListener("poc:message", (e) => {
+        console.log(e.detail.msg);
+      });
+    </script>
+  </body>
+</html>
